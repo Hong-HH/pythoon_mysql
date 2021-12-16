@@ -4,7 +4,7 @@ from datetime import datetime
 
 try : 
     # 1. DB에 연결
-    connection = mysql.connector.connect(host = 'yh-db.cvoukkfbturw.ap-northeast-2.rds.amazonaws.com', 
+    connection = mysql.connector.connect(host = 'yh-db_amazonaws.com', 
         database = 'streamlit_db', 
         user = 'python_user',
         password = '2105'

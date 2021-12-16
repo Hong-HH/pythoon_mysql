@@ -4,7 +4,7 @@ from mysql.connector.errors import Error
 # try 라고 나오면, 들여쓰기 되어있는 문장들을 실행하라는 뜻.
 
 try : 
-    connection = mysql.connector.connect(host = 'yh-db.cvoukkfbturw.ap-northeast-2.rds.amazonaws.com', 
+    connection = mysql.connector.connect(host = 'yh-db.amazonaws.com', 
         database = 'streamlit_db', 
         user = 'python_user',
         password = '2105'
